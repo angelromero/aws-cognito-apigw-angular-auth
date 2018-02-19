@@ -411,7 +411,7 @@ Resources:
     Properties:
       Handler: index.handler
       Runtime: nodejs4.3
-      CodeUri: s3://<S3 BUCKET>/lambda.zip
+      CodeUri: s3://bsf003a/lambda.zip
       Policies: AmazonDynamoDBFullAccess
       Environment: 
         Variables: 

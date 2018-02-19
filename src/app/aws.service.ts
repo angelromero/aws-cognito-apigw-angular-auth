@@ -28,14 +28,14 @@ export class AwsService {
 
  /************ RESOURCE IDENTIFIERS *************/
 
-  googleId:string = 'XXXXXXXXXXXXXXXXXXXXXXXX.apps.googleusercontent.com';
+  googleId:string = '403005676424-riolg0cvgv14ckiv29hofe341fvl8e0g.apps.googleusercontent.com';
   poolData = { 
-        UserPoolId : 'XXXXXXXXXXXXXXXXXXXXXXXXXXX', //CognitoUserPool
-        ClientId : 'XXXXXXXXXXXXXXXXXXXXXXXXXXX', //CognitoUserPoolClient 
+        UserPoolId : 'us-east-1_DoeahZVhD', //CognitoUserPool
+        ClientId : '2t4lk5vo4udbomjp51tgohdc15', //CognitoUserPoolClient 
         Paranoia : 7
     };
-  identityPool:string = 'XXXXXXXXXXXXXXXXXXXXXXXXXXX'; //CognitoIdentityPool 
-  apiURL:string = 'XXXXXXXXXXXXXXXXXXXXXXXXXXX';  //ApiUrl
+  identityPool:string = 'us-east-1:45800b0f-0158-4dd7-b316-89c6b10e881b'; //CognitoIdentityPool 
+  apiURL:string = 'https://f7fosx1ex8.execute-api.us-east-1.amazonaws.com/demo';  //ApiUrl
   region:string = 'us-east-1'; //Region Matching CognitoUserPool region
 
  /*********************************************/
